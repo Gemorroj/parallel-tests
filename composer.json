@@ -1,0 +1,19 @@
+{
+    "name": "gemorroj/parallel-tests",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gemorroj"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "amphp/amp": "^3.0.2",
+        "amphp/parallel": "^2.2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
